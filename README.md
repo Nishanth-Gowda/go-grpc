@@ -6,36 +6,8 @@ This is a command-line interface (CLI) application written in Go that allows you
 
 **Features**
 
-- Check the health of one or multiple websites simultaneously.
+- Check the health of websites.
 - Display the status (up or down) of each website.
 - Measure the response time for each website.
-- Set custom timeout and interval values for checking websites.
 - Easily configurable through command-line flags and options.
 - Supports HTTP and HTTPS protocols.
-
-Installation
-To install the Health Checker CLI App, follow these steps:
-
-Ensure you have Go installed on your system. If not, you can download and install it from https://golang.org/.
-
-Clone this repository to your local machine:
-***
-git clone https://github.com/your-username/health-checker-cli.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd health-checker-cli
-Build the application:
-
-go
-Copy code
-go build
-You can now run the Health Checker CLI App using the generated executable.
-
-Usage
-The Health Checker CLI App provides a simple command-line interface. Here's how to use it:
-
-css
-Copy code
-health-checker-cli [OPTIONS] [WEBSITE_URLS...]
